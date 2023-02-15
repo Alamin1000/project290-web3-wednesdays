@@ -160,49 +160,113 @@
                 <h2 class="h2 mb-2 pb-1">Events</h2>
                 <ul class="tab-t-nav nav">
                   <li>
-                    <a class="active" data-bs-toggle="tab" href="#">Upcoming</a>
+                    <a
+                      class="active"
+                      data-bs-toggle="tab"
+                      data-bs-target="#events-upcoming"
+                      href="#"
+                      >Upcoming</a
+                    >
                   </li>
-                  <li><a data-bs-toggle="tab" href="#">Completed</a></li>
+                  <li>
+                    <a
+                      data-bs-toggle="tab"
+                      data-bs-target="#events-completed"
+                      href="#"
+                      >Completed</a
+                    >
+                  </li>
                 </ul>
               </div>
 
-              <div class="events__wrapper">
-                <!-- event-single -->
-                <div class="event-single">
-                  <div class="event-single__image">
-                    <img src="images/event-1.jpg" alt="" />
-                  </div>
-                  <div class="event-single__tc">
-                    <h4>Event 1</h4>
-                    <p>5pm Feb 20 at Westminster</p>
-                    <a href="#" class="button">RSVP</a>
+              <div class="event-tab-content tab-content">
+                <!-- event-tab-pane -->
+                <div
+                  class="event-tab-pane tab-pane fade show active"
+                  id="events-upcoming"
+                >
+                  <div class="events__wrapper">
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-1.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 1</h4>
+                        <p>5pm Feb 20 at Westminster</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-2.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 2</h4>
+                        <p>5pm Apr 10 at Lloyds</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-3.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 3</h4>
+                        <p>6pm May 4 at Canary</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
                   </div>
                 </div>
-                <!-- event-single-end -->
-                <!-- event-single -->
-                <div class="event-single">
-                  <div class="event-single__image">
-                    <img src="images/event-2.jpg" alt="" />
-                  </div>
-                  <div class="event-single__tc">
-                    <h4>Event 2</h4>
-                    <p>5pm Apr 10 at Lloyds</p>
-                    <a href="#" class="button">RSVP</a>
+                <!-- event-tab-pane-end -->
+                <!-- event-tab-pane -->
+                <div class="event-tab-pane tab-pane fade" id="events-completed">
+                  <div class="events__wrapper">
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-1.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 1</h4>
+                        <p>5pm Feb 20 at Westminster</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-2.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 2</h4>
+                        <p>5pm Apr 10 at Lloyds</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
+                    <!-- event-single -->
+                    <div class="event-single">
+                      <div class="event-single__image">
+                        <img src="images/event-3.jpg" alt="" />
+                      </div>
+                      <div class="event-single__tc">
+                        <h4>Event 3</h4>
+                        <p>6pm May 4 at Canary</p>
+                        <a href="#" class="button">RSVP</a>
+                      </div>
+                    </div>
+                    <!-- event-single-end -->
                   </div>
                 </div>
-                <!-- event-single-end -->
-                <!-- event-single -->
-                <div class="event-single">
-                  <div class="event-single__image">
-                    <img src="images/event-3.jpg" alt="" />
-                  </div>
-                  <div class="event-single__tc">
-                    <h4>Event 3</h4>
-                    <p>6pm May 4 at Canary</p>
-                    <a href="#" class="button">RSVP</a>
-                  </div>
-                </div>
-                <!-- event-single-end -->
+                <!-- event-tab-pane-end -->
               </div>
             </div>
           </div>

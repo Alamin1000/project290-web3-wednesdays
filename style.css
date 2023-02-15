@@ -361,7 +361,7 @@ p:last-child{
   padding: 2px 0;
   font-weight: 900;
   display: flex;
-  border-bottom: 2px solid var(--theme__color3);
+  border-bottom: 2px solid transparent;
 }
 .tab-t-nav li a.active {
   border-bottom-color: var(--theme__color3);
