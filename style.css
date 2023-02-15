@@ -417,7 +417,7 @@ p:last-child{
   transition: 0.3s;
 }
 .event-single__tc .button:hover {
-  opacity: 0.8;
+  background: #042ad4;
 }
 /* ---events-section---end */
 
